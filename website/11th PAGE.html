@@ -1,0 +1,194 @@
+<html>
+<title>  
+Registration Page  
+</title>  
+<table border= "1">
+<tr>
+<th colspan="4"><img src ="LOGO.jpg" width="1300" height="200"</th>
+</tr>
+<tr>
+<th colspan="4">
+<head>
+<style>
+body {
+
+background-color:lightgrey;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+<ul>
+   <li><a class="active" href="1st PAGE.html">Home</a></li>
+  <li><a href="5th PAGE.html">News</a></li>
+  <li><a href="8th PAGE.html">Contact</a></li>
+  <li><a href="2nd PAGE.html">About</a></li>
+ <li><a href="6th PAGE.html">StudentFeedback</a></li>
+ <li><a href="10th PAGE.html">Campus</a></li>
+ <li><a href="3rd PAGE.html ">Administrator</a></li>
+ <li><a href="7th PAGE.html">Syllabus</a></li>
+ <li><a href="4th PAGE.html">Reasearch</a></li>
+ <li><a href="9th PAGE.html">Support</a></li>
+<li><a href="11th PAGE.html">Registration</a></li>
+<li><a href="12th PAGE.html">Gallery</a></li>
+</ul>
+</body>
+ </th>
+</tr>
+
+<tr>
+<form>
+<th colspan = "2"> <p style="color:crimson;"> Student Name:</p> </th>
+<th><input type = "text" id ="name"name = "name"> <br> </th>
+</tr>
+
+<th colspan = "2"> <p style="color:crimson;"> Father Name: </p></th>
+<th><input type = "text" id ="name"name = "name"> <br> </th>
+</tr>
+
+<th colspan = "2"> <p style="color:crimson;"> Mother Name: </p> </th>
+<th><input type = "text" id ="name"name = "name"> <br> </th>
+</tr>
+
+<tr>
+<th colspan = "2">  <p style="color:crimson;"> Birth Date: </p> </th>
+<th><input type = "text " id = "email ="Email"> </th>
+</tr>
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;"> Number: </p> </th>
+<th><input type = "text" id ="name"name = "name"
+placeholder="000-0000-000"><br> </th>
+</tr>
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;"> Emergency Contact: </p> </th>
+<th><input type = "text" id ="name"name = "name"> <br> </th>
+</tr>
+
+<tr>
+<th colspan="2">  <p style="color:crimson;"> Gender: </p> </th>
+
+<th> <input type= "radio" id = "gender1" name = " gender1" value= "Male">
+<label for = " gender1">Male </label>
+  <input type="radio" id="gender2" name="gender2" value="Female">
+  <label for="gender2"> Female</label> </th>
+</tr>
+
+<tr>
+<th  colspan="2"> <p style="color:crimson;"> D.O.B: </p></th>
+<th><form action="/action_page.php">
+    <input type="date" id="birthday" name="birthday">
+  </form> </th>
+</tr>
+
+<tr>
+<th colspan = "2"><p style="color:crimson;"> Email: </p>  </th>
+<th><input type = "text " id = "email ="Email" placeholder="abc@gmail.com"> </th>
+</tr>
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;"> Password: </p> </th>
+<th> <input type="password" value="pw" id="myInput"><br>
+<br> <input type="checkbox" onclick="myFunction()">Show Password
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+</tr>
+
+
+
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;"> State /Province </p> </th>
+<th> <select id="country-state" name="country-state" placeholder="India">
+    <option value="">Select state</option>
+    <option value="AN">Andaman and Nicobar Islands</option>
+    <option value="AP">Andhra Pradesh</option>
+    <option value="AR">Arunachal Pradesh</option>
+    <option value="AS">Assam</option>
+    <option value="BR">Bihar</option>
+    <option value="CH">Chandigarh</option>
+</select></th>
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;"> Postal Code: </p> </th>
+<th><input type = "text" id ="name"name = "name"> <br> </th>
+</tr>
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;">  Street address:</p> </th> 
+<th> <input type = "text" id ="name"name = "name"> <br> </th>
+</tr>
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;"> Street address line 2: </p></th>
+<th><input type = "text" id ="name"name = "name"> <br> </th>
+</tr>
+
+<tr>
+<th colspan = "2"> <p style="color:crimson;">City: </p></th>
+ <th><input type = "text" id ="name"name = "name"> <br> </th>
+ </tr>
+
+<tr>
+<th>  <p style="color:crimson;">Do you speak any languages other than English? </p> <th> 
+
+<th><input type= "radio" id = "language" name = "language" value= "Yes">
+<label for = " gender1">Yes</label>
+  <input type="radio" id="language1 name="language1" value="No">
+  <label for="language1"> No</label> </th>
+</tr>
+
+<tr>
+<th  colspan="2"><p style="color:crimson;"> Of which country are you a citizen? </p> </th>
+<th> <select id="country-state" name="country-state">
+    <option value="">Select Country</option>
+    <option value="IN"> India  </option>
+   <option value ="AS">Austrailia </option>
+  <option value ="PK"> Pakistan </option>
+  <option value = "RS">Russia </option>
+   <option value = "US">America </option>
+<option value = "SL">Sri lanka </option>
+</select> </th>
+</tr>
+
+<tr>
+<th colspan = "4">
+<input type="button"onclick="alert('Your form is submited')" value="Submit"  {background-color: #555555;} >
+</form> </th>
+</tr>
